@@ -13,11 +13,11 @@
 * Rappels informatiques
   - Automates à états finis et langages rationnels.
   - Machines à états.
-  - Automates à piles et langages algébriques.
-  - Machines à piles.
   - Principes de programmation procédurale.
 
 * Rappels facultatifs (recherches personnelles)
+  - Automates à piles et langages algébriques.
+  - Machines à piles.
   - Théorème d’incomplétude de Gödel.
   - Hiérarchie de Turing.
   - Complétude de Turing.
