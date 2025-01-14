@@ -1,0 +1,11 @@
+== SO2
+
+=== 2025-01-14
+* Présentation de TMR_02-Fondements
+  - Diaporama de présentation TMR_02-Fondements_PRE
+  - Document de référence TMR_02-Fondements_NDC
+  - Diaporama de synthèse TMR_02-Fondements_SYN
+
+=== 2025-01-16
+* Travail dirigé sur TMR_02-Fondements
+  - Diaporama de suivi TMR_02-Fondements_TD
