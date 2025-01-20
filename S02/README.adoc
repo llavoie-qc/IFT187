@@ -1,4 +1,4 @@
-== SO2
+== S02
 
 === 2025-01-14
 * Présentation de TMR_02-Fondements
@@ -9,3 +9,8 @@
 === 2025-01-16
 * Travail dirigé sur TMR_02-Fondements
   - Diaporama de suivi TMR_02-Fondements_TD
+
+=== 2025-01-20
+* Modification de TMR_02-Fondements_TD
+  - Ajout du mécanisme de fonction (variante 3 du problème 4)
+  - Correction de coquilles

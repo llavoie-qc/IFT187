@@ -1,4 +1,4 @@
-== SO1
+== S01
 
 === 2025-01-08
 * Présentation du plan de l'activité (IFT187_2025-1.pdf)
