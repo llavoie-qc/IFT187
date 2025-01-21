@@ -3,9 +3,9 @@
 -- Composant Evaluation_ins-inv.sql
 -- -----------------------------------------------------------------------------
 Activité : IFT187
-Trimestre : 2020-3
+Trimestre : 2025-1
 Encodage : UTF-8, sans BOM; fin de ligne Unix (LF)
-Plateforme : PostgreSQL 9.4 à 14.1
+Plateforme : PostgreSQL 9.4 à 17
 Responsable : Luc.Lavoie@USherbrooke.ca
 Version : 0.1.0e
 Statut : en vigueur
@@ -94,7 +94,7 @@ Tâches réalisées :
   * un test par contrainte
 
 Références :
-[mod] http://info.usherbrooke.ca/llavoie/enseignement/Modules/
+[mod] https://github.com/llavoie-qc/IFT187
 
 -- -----------------------------------------------------------------------------
 -- fin de Evaluation_ins-inv.sql

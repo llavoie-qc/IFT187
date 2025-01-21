@@ -3,9 +3,9 @@
 -- Composant Evaluation_ins-val.sql
 -- -----------------------------------------------------------------------------
 Activité : IFT187
-Trimestre : 2018-3
+Trimestre : 2025-1
 Encodage : UTF-8, sans BOM; fin de ligne Unix (LF)
-Plateforme : PostgreSQL 9.3 à 14.1
+Plateforme : PostgreSQL 9.3 à 17
 Responsable : Luc.Lavoie@USherbrooke.ca
 Version : 0.1.0e
 Statut : en vigueur
@@ -122,10 +122,10 @@ NIL
 
 Tâches réalisées :
 2013-09-03 (LL01) : Initialisation
-  * Insertion des données de l’exemple fourni dans BD012.
+  * Insertion des données de l’exemple fourni dans SQL_00-Apercu.
 
 Références :
-[mod] http://info.usherbrooke.ca/llavoie/enseignement/Modules/
+[mod] https://github.com/llavoie-qc/IFT187
 -- -----------------------------------------------------------------------------
 -- fin de Evaluation_ins-val.sql
 -- =========================================================================== Z

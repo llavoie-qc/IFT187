@@ -1,2 +1,7 @@
 # IFT187
-Matériel de cours de l’activité IFT187 — Éléments de bases de données — dispensée au Campus principal de l’Université de Sherbrooke au trimestre d’hiver 2025.
+Matériel de cours de l’activité IFT187 — Éléments de bases de données — dispensée
+au Campus principal de l’Université de Sherbrooke au trimestre d’hiver 2025.
+
+* Plan de l’activité (IFT187_2025-1.pdf)
+* Standard de programmation SQL (STD-SQL-01_NT.pdf)
+* Matériel de soutien classé semaine de prestation (/S01 à /S12)

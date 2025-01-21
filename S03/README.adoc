@@ -7,5 +7,7 @@
 === 2025-01-23
 * Présentation de SQL_02b-Types-et-domaines
 * Présentation de SQL_02c-Tables-et-cles
+* Mise à disposition du matériel pour le LAB0
+* Mise à disposition du matériel de l’exemple Évaluation
 * Travail dirigé sur l’exemple Evaluation
   - Scripts SQL disponible dans le dossier du même nom

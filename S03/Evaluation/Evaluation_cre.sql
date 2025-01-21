@@ -3,11 +3,11 @@
 -- Composant Evaluation_cre.sql
 -- -----------------------------------------------------------------------------
 Activité : IFT187
-Trimestre : 2020-3
+Trimestre : 2025-1
 Encodage : UTF-8, sans BOM; fin de ligne Unix (LF)
-Plateforme : PostgreSQL 9.4 à 15
+Plateforme : PostgreSQL 9.4 à 17
 Responsable : Luc.Lavoie@USherbrooke.ca
-Version : 0.2.5e
+Version : 0.2.5f
 Statut : en vigueur
 -- =========================================================================== A
 */
@@ -17,7 +17,8 @@ Statut : en vigueur
 Création du schéma correspondant au modèle de consignation des résultats
 d’évaluation des activités pédagogiques de l’Université de Samarcande (UdeS).
 
-Ce modèle décrit est présenté dans BD012 [mod]; il est esquissé ci-après.
+Ce modèle est présenté dans TMR_02-Fondements_TD et SQL_00-Apercu [mod] ;
+il est esquissé ci-après.
 
 Contexte
 L’Université de Samarcande (UdeS), fondée en 1927, propose différentes activités
@@ -27,7 +28,7 @@ nécessaire de pouvoir ajuster l’offre de formation aux parcours effectifs de
 formation.
 
 Problème
-Développer un système (informatisé) permettant de
+Développer un système (informatisé) permettant de :
   * constituer un répertoire des activités proposées ;
   * consigner les admissions à l’UdeS ;
   * consigner les inscriptions aux activités ;
@@ -36,7 +37,7 @@ Développer un système (informatisé) permettant de
 
 Vocabulaire et règles applicables
 Activité
-  * L’UdeS définit une activité; dès lors, elle peut être offerte.
+  * L’UdeS définit une activité ; dès lors, elle peut être offerte.
   * L’activité est identifiée par un sigle et caractérisée par un titre.
   * Une activité comporte des évaluations.
 Étudiant
@@ -45,7 +46,7 @@ Activité
   * Dès lors que l’UdeS admet un étudiant, celui-ci peut s’inscrire à des activités,
     y participer et se présenter aux évaluations de ces activités.
 Type d’évaluation
-  * L’UdeS autorise un type d’évaluation (TE); dès lors, une activité peut comporter
+  * L’UdeS autorise un type d’évaluation (TE) ; dès lors, une activité peut comporter
     une évaluation de ce type.
   * Un TE est identifié par un code et caractérisé par une description.
 Inscription
@@ -53,14 +54,14 @@ Inscription
     est inscrit lors d’une évaluation au cours d’un trimestre.
 Résultat
   * Un résultat est identifié par le matricule de l’étudiant, le sigle de l’activité,
-    le trimestre et le code de TE; il est caractérisé par une note.
+    le trimestre et le code de TE ; il est caractérisé par une note.
 
 Notes de mise en oeuvre
 (a) La relvar Inscription a été ajoutée et le schéma modifié en conséquence
     suite au retour d’analyse des modules TMR_01-Fondements_TD-Evaluation et
     SQL_00-Introduction.
 (b) La présente version du composant est issue de quatre itérations
-    (_i0, ..., _i3).
+    (_i0, …, _i3).
 
 Les colles du prof
 (a) Comparer les prédicats utilisés dans TMR_01-Fondements_TD-Evaluation avec ceux utilisés ici.
@@ -68,8 +69,8 @@ Les colles du prof
     et motiver le choix.
 (b) Modifier le composant afin de ne permettre que les seuls trimestres
     durant lesquels il y a effectivement eu dispensation de l’enseignement.
-    En effet, l’UdeS a notamment du suspendre ses activités lors des grandes
-    épidémies et lors des guerres.
+    En effet, l’UdeS a notamment dû suspendre ses activités lors de certaines
+    grandes épidémies et lors de certaines guerres.
 -- =========================================================================== B
 */
 CREATE DOMAIN SigleCours
@@ -106,6 +107,8 @@ CREATE DOMAIN Note
 ;
 
 CREATE DOMAIN Trimestre
+  -- L’année universitaire est divisée en trois trimestres d’une durée approximative
+  -- de trois mois chacun (en pratique, le plus souvent 16 semaines).
   -- Les trimestres sont encodés en suffixant le chiffre du trimestre à
   -- une année postérieure à 1927 (année de fondation de l’UdeS).
   -- Chiffre associé au trimestre : hiver -> 1, été -> 2, automne -> 3.
@@ -141,7 +144,7 @@ CREATE TABLE Etudiant
 
 CREATE TABLE Inscription
   -- L’étudiant dont le matricule est «matricule» est inscrit à l’activité «activite»
-  -- au trimestre «trimestre» à l’UdeS.
+  -- du trimestre «trimestre» à l’UdeS.
 (
   matricule  Matricule  NOT NULL,
   activite   SigleCours NOT NULL,
@@ -165,7 +168,7 @@ CREATE TABLE TypeEvaluation
 CREATE TABLE Resultat
   -- Le résultat «note» a été obtenu par l’étudiant identifié par le matricule
   -- est «matricule» lors de l’évaluation «TE» dans le cadre de l’activité «activite»
-  -- au trimestre «trimestre».
+  -- du trimestre «trimestre».
 (
   matricule  Matricule  NOT NULL,
   activite   SigleCours NOT NULL,
@@ -199,11 +202,13 @@ Tâches projetées :
   * Renforcer le typage.
 
 Tâches réalisées :
+2025-01-21 (LL01) : Revue mineure.
+  * Précisions apportées à la définition du trimestre ; correction de coquilles.
 2022-11-14 (LL01) : Retrait des références à Oracle.
   * Oracle n’offrant pas la possibilité de définir de domaines, la mention
     de sa syntaxe non conforme pour les expressions régulières n’est plus
-    d'actualité.
-2022-05-14 (LL01) : Harmonisation avec TRM_01_TD et SQL_00_Aperçu.
+    d’actualité.
+2022-05-14 (LL01) : Harmonisation avec TRM_02-Fondements_TD et SQL_00-Aperçu.
   * utilisation du type Text et ordonnancement des définitions.
 2021-10-24 (LL01) : Harmonisation avec BD012 et BD100
   * utilisation du type Text et ordonnancement des définitions.
@@ -223,7 +228,7 @@ Tâches réalisées :
   * CREATE TABLE Activite, TypeEvaluation, Etudiant, Resultat.
 
 Références :
-[mod] http://info.usherbrooke.ca/llavoie/enseignement/Modules/
+[mod] https://github.com/llavoie-qc/IFT187
 -- -----------------------------------------------------------------------------
 -- Fin de Evaluation_cre.sql
 -- =========================================================================== Z
