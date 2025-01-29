@@ -57,3 +57,11 @@
 * Pour un inventaire des principales méthodes d’installation sur les principales plateformes :
   - https://www.postgresql.org/download
 ====
+
+=== Tutoriels facilitant la prise en main de DataGrip
+.Réponse 2025-01-29
+[%collapsible]
+====
+* DataGrip Introduction (11 min) : https://www.youtube.com/watch?v=Xb9K8IAdZNg
+* DataGrip Overview (40 min) : https://www.youtube.com/watch?v=U5SOD-eeK50
+====
