@@ -1,0 +1,29 @@
+== S05
+
+=== 2025-02-04
+* *Retour sur LAB1*
+  - Difficultés rencontrées
+    *** Typage -> de la nécessité d’un dictionnaire de données
+    *** Prise en main de DayaGrip -> voir les vidéos
+    *** Expressions rationnelles -> voir les notes et la documentation de PostgreSQL
+        (https://docs.postgresql.fr/17/functions-matching.html)
+  - Mise à disposition du solutionnaire du LAB1
+    *** Voir les fichiers du LAB2
+    *** Les fichiers `Herbivorie_def.sql` et `Herbivorie_cre.sql` ont été fusionnés
+    *** Un dictionnaire de données a été inclus dans Herbivorie_EPP_v2
+
+* *Retour sur SQL_04-Modification_PRE*
+  - Que se passe-t-il quand un attribut impliqué dans une clé référentielle est modifié ?
+
+* *Présentation de SQL_03b_Selection-simple_PRE*
+  - Prendre en compte les explications dans les notes complémentaires incluses dans le PDF.
+
+* *Préparation au LAB2*
+  - Mise à disposition du matériel pour le LAB2
+  - Lecture de `Herbivorie_EPP_v2.pdf`, `Herbivorie_LAB2.pdf` et `Herbivorie_cre.sql`
+
+=== 2025-02-06
+* *Présentation de SQL_03c_Selection-avancee_PRE*
+  - Prendre en compte les explications dans les notes complémentaires incluses dans le PDF.
+* *Travail dirigé du LAB2*
+  - Matériel disponible dans le dossier du même nom
