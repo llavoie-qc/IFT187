@@ -4,7 +4,7 @@
 * *Retour sur LAB1*
   - Difficultés rencontrées
     *** Typage -> de la nécessité d’un dictionnaire de données
-    *** Prise en main de DayaGrip -> voir les vidéos
+    *** Prise en main de DataGrip -> voir les vidéos
     *** Expressions rationnelles -> voir les notes et la documentation de PostgreSQL
         (https://docs.postgresql.fr/17/functions-matching.html)
   - Mise à disposition du solutionnaire du LAB1
@@ -20,7 +20,7 @@
 
 * *Préparation au LAB2*
   - Mise à disposition du matériel pour le LAB2
-  - Lecture de `Herbivorie_EPP_v2.pdf`, `Herbivorie_LAB2.pdf` et `Herbivorie_cre.sql`
+  - Lecture de `Herbivorie_EPP_v022a.pdf`, `Herbivorie_LAB2.pdf` et `Herbivorie_cre.sql`
 
 === 2025-02-06
 * *Présentation de SQL_03c_Selection-avancee_PRE*
