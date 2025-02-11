@@ -6,10 +6,10 @@
     *** Voir les fichiers du LAB3 (e.a.: `Herbivorie_req2.sql`)
   - Mise à disposition du matériel pour le LAB3
 
-* *Présentation de SQL_03b_Selection-avancee_PRE*
+* *Présentation de SQL_03c_Selection-avancee_PRE*
   - Prendre en compte les explications dans les notes complémentaires incluses dans le PDF.
 
-* *Présentation de SQL_03c_Selection-Synthèse_PRE*
+* *Présentation de SQL_03d_Selection-Synthèse_PRE*
   - Prendre en compte les explications dans les notes complémentaires incluses dans le PDF.
 
 === 2025-02-12 (en autonomie)
