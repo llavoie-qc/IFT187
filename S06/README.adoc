@@ -1,17 +1,25 @@
 == S06
 
-=== 2025-02-11
+=== 2025-02-11 (en cours)
 * *Retour sur LAB2*
   - Mise à disposition du solutionnaire du LAB2
     *** Voir les fichiers du LAB3 (e.a.: `Herbivorie_req2.sql`)
+  - Mise à disposition du matériel pour le LAB3
 
 * *Présentation de SQL_03b_Selection-avancee_PRE*
   - Prendre en compte les explications dans les notes complémentaires incluses dans le PDF.
 
+* *Présentation de SQL_03b_Selection-avancee_PRE*
+  - Prendre en compte les explications dans les notes complémentaires incluses dans le PDF.
+
+=== 2025-02-12 (en autonomie)
 * *Préparation au LAB3*
   - Mise à disposition du matériel pour le LAB3
   - Lecture de `Herbivorie_EPP_v022a.pdf`, `Herbivorie_LAB3.pdf` et `Herbivorie_cre.sql`
 
-=== 2025-02-13
+=== 2025-02-13 (en cours et en laboratoire)
 * *Présentation de SQL_06a-Procedures-et-fonctions_fn_PRE*
+  - Prendre en compte les explications dans les notes complémentaires incluses dans le PDF.
+
 * *Travail dirigé du LAB3*
+  - Voir la composition des équipes sur Turnin
