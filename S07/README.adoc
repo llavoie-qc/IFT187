@@ -1,0 +1,28 @@
+== S07
+
+=== 2025-02-18 (en cours)
+* *Présentation de TMR_07-Donnees-manquantes_PRE*
+  - Prendre en compte les explications dans les notes complémentaires incluses dans le PDF.
+
+* *Présentation de SQL_08-Operateurs-pour-les-nuls_PRE*
+  - Prendre en compte les explications dans les notes complémentaires incluses dans le PDF.
+
+* *Mise à disposition d’un examen formatif*
+  - Voir `IFT187_2020-3_EX1-formatif.pdf`
+
+=== 2025-02-19 (en autonomie)
+////
+* *Retour sur LAB3*
+  - Mise à disposition du solutionnaire du LAB3
+    *** Voir les fichiers du LAB4 (e.a.: `Herbivorie_req3.sql`)
+////
+* *Préparation au LAB4*
+  - Mise à disposition du matériel pour le LAB4
+  - Lecture de `Herbivorie_EPP_v022a.pdf`, `Herbivorie_LAB4.pdf` et `Herbivorie_cre.sql`
+
+=== 2025-02-20 (en cours et en laboratoire)
+* *Présentation de SQL_07-Vues_PRE*
+  - Prendre en compte les explications dans les notes complémentaires incluses dans le PDF.
+
+* *Travail dirigé du LAB4*
+  - Voir la composition des équipes sur Turnin
