@@ -11,11 +11,11 @@
   - Voir `IFT187_2020-3_EX1-formatif.pdf`
 
 === 2025-02-19 (en autonomie)
-////
+
 * *Retour sur LAB3*
   - Mise à disposition du solutionnaire du LAB3
-    *** Voir les fichiers du LAB4 (e.a.: `Herbivorie_req3.sql`)
-////
+    *** Voir les fichiers du LAB4 (e.a.: `Herbivorie_req3_sol.sql`)
+
 * *Préparation au LAB4*
   - Mise à disposition du matériel pour le LAB4
   - Lecture de `Herbivorie_EPP_v022a.pdf`, `Herbivorie_LAB4.pdf` et `Herbivorie_cre.sql`
