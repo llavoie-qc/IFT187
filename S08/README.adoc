@@ -1,0 +1,4 @@
+== S08
+
+Le document MCD_02a-Modelisation-EA_PRE.pdf, correspond à une version antérieure du document MCD_10-EA_PRE.pdf.
+Il a été ajouté, car il contient quelques exemples supplémentaires.
