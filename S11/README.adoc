@@ -1,0 +1,14 @@
+== S11
+
+=== 2025-04-01 (en cours)
+* Suite et fin du module portant sur la normalisation
+* Conception relationnelle
+* Utilisation des automatismes pour la programmation des invariants
+
+=== 2025-04-03 (en cours et en laboratoire)
+* *Rencontre de suivi avec chacune des équipes relativement au TS*
+
+=== Mises à jour du site
+* Ajout d’un exemple en S08
+* Ajout en S10 d’un module sur la mise en correspondance EAE-UML
+* Corrections mineures en S10 de MCD_01-Normalisation
