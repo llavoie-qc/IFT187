@@ -4,6 +4,7 @@ au Campus principal de l’Université de Sherbrooke au trimestre d’hiver 2025
 
 * Plan de l’activité (IFT187_2025-1.pdf)
 * Standard de programmation SQL (STD-SQL-01_NT.pdf)
-* Matériel de soutien classé semaine de prestation (/S01 à /S12)
+* Matériel de soutien classé par semaine de prestation (/S01 à /S12)
+* Matériel du travail de session (/TS)
 
 include::Foire aux questions.adoc[]
